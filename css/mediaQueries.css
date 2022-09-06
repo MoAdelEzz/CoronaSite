@@ -1,0 +1,132 @@
+/* ================================== xl Screens ==================================*/
+@media (min-width:1440px)
+{
+    .toggler
+    {
+        display: none;
+    }
+
+    .navbar
+    {
+        left: 10px;
+    }
+}
+
+
+/* ================================== lg Screens ==================================*/
+@media (max-width: 1439px) and (min-width: 1024px)
+{
+    .toggler
+    {
+        display: none;
+    }
+    .navbar
+    {
+        width: 100%;
+    }
+
+    .btn-primary
+    {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    #Section-1 a
+    {
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+
+/* ================================== md Screens ==================================*/
+@media (max-width: 1023px) and (min-width: 600px) 
+{
+    .navbar
+    {
+        height: auto;
+        width: 100%;
+    }
+    .tags-container
+    {
+        border-bottom: 1px solid grey;
+    }
+    .tag
+    {
+        width: 100%;
+        display: block;
+    }
+    .btn
+    {
+        width: 100% !important;
+    }
+}
+
+
+/* ================================== sm Screens ==================================*/
+@media(max-width:600px)
+{
+    .navbar
+    {
+        height: auto;
+        width: 100%;
+    }
+    .tags-container
+    {
+        flex-wrap: wrap;
+        border-bottom: 1px solid grey;
+    }
+    .tag
+    {
+        width: 100%;
+        display: block;
+    }
+    .btn
+    {
+        width: 100% !important;
+    }
+    .smallwidth
+    {
+        width: 65%;
+    }
+    .sm-around
+    {
+        justify-content: space-around !important;
+    }
+    .btn-primary
+    {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    #Section-1 a
+    {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #Section-1 .funnyText
+    {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .redHeaders
+    {
+        text-align: center;
+    }
+    #Section-1 .btnsWrapper
+    {
+        width: 100%;
+    }
+    #Section-1 .btn-primary
+    {
+        width: 100%;
+    }
+    .Counterwrapper, .counterTitle, .counter
+    {
+        text-align: center;
+    }
+}
+
+

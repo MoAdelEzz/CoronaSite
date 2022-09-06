@@ -1,0 +1,16 @@
+HTML :
+<div class="owl-carousel owl-theme">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
+//======================================================
+JS :
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+});
